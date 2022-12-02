@@ -2,7 +2,6 @@ class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         int size = nums.size();
-        //int t[size];
         int i,j=0;
         for(i=0; i<size-1; i++) {
             if(nums[i] < nums[i+1]) {
