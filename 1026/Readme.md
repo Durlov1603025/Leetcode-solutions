@@ -1,8 +1,6 @@
 1026. Maximum Difference Between Node and Ancestor
-Medium
-3.4K
-81
-Companies
+
+
 Given the root of a binary tree, find the maximum value v for which there exist different nodes a and b where v = |a.val - b.val| and a is an ancestor of b.
 
 A node a is an ancestor of b if either: any child of a is equal to b or any child of a is an ancestor of b.
@@ -22,6 +20,8 @@ Explanation: We have various ancestor-node differences, some of which are given 
 |8 - 1| = 7
 |10 - 13| = 3
 Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 7.
+
+
 Example 2:
 ![image](https://user-images.githubusercontent.com/53161692/206716085-a9dd93c5-efbe-408e-bf18-2fa474b87382.png)
 
