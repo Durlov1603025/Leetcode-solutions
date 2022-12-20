@@ -49,8 +49,8 @@ public:
             }
 
         }
-        reverse(result.begin(), result.end());
-        cout<<result;
+        //reverse(result.begin(), result.end());    //If it's said to return the longest Common Subsequences then then we have to return the "result" string.  
+        //cout<<result;                                      We can also make the result as string vector. 
         return dp[n][m];
     }
 };
