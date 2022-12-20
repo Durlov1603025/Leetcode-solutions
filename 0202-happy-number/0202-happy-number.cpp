@@ -1,12 +1,13 @@
 class Solution {
 public:
     bool isHappy(int n) {
-        int ans = n;
+        int ans;
 
         for(int i =0; i<10; i++)
         {
-            n = ans;
+           
             ans = sq(n);
+            n = ans;
 
         if(ans == 1){
             return true;
